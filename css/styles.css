@@ -101,10 +101,11 @@ button {
 .header-list {
   display: flex;
   padding: 30px 0;
+  gap: 30px;
 }
 
 .header-item {
-  margin-left: 30px;
+  /* margin-left: 30px; */
   /* padding-left: 30px; */
 }
 
