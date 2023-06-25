@@ -85,9 +85,12 @@ button {
 */
 
 .header {
+  /* height: 80px;
+  display: flex; */
 }
-.header .container{
+.header .container {
   display: flex;
+  align-items: center;
 }
 .header-logo {
 }
@@ -97,10 +100,17 @@ button {
 
 .header-list {
   display: flex;
+  padding: 30px 0;
 }
 
 .header-item {
+  margin-left: 30px;
+  /* padding-left: 30px; */
 }
 
 .header-link {
+  display: block;
+  /* margin-left: 30px; */
+  background-color: red;
+  /* padding: 30px 0; */
 }
